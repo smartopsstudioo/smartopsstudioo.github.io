@@ -4,81 +4,115 @@
   <meta charset="UTF-8">
   <title>SmartOps Studio</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="SmartOps Studio — Creative Intelligence where systems, design, and technology meet.">
+  <meta name="description" content="Creative Intelligence Studio">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
+<!-- NAV -->
+<header class="nav">
+  <div class="logo">SmartOps</div>
+  <nav>
+    <a href="#projects">Projects</a>
+    <a href="#vision">Vision</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
 <!-- HERO -->
-<section class="hero">
-  <h1>SmartOps Studio</h1>
-  <p>Creative Intelligence • Smart Systems • UI/UX • Digital Operations</p>
-  <div class="hero-actions">
-    <a href="#portfolio" class="btn primary">View Work</a>
-    <a href="#contact" class="btn outline">Contact</a>
+<section class="hero reveal">
+  <h1>Creative Intelligence<br>That Builds Smart Systems</h1>
+  <p>Design • Systems • Operations • Technology</p>
+
+  <div class="search">
+    <input type="text" placeholder="Search services or projects">
+    <button>Search</button>
   </div>
 </section>
 
-<!-- FEATURES -->
-<section class="features">
-  <div class="feature">Smart Systems Design</div>
-  <div class="feature">UI/UX & Interfaces</div>
-  <div class="feature">Creative Direction</div>
-  <div class="feature">Human-Centered Technology</div>
+<!-- VISION -->
+<section class="vision reveal" id="vision">
+  <h2>My Vision</h2>
+  <p class="big">
+    I don’t design visuals.  
+    I design how things work.
+  </p>
+  <p class="small">
+    Smart systems that connect creativity, people, and technology.
+  </p>
 </section>
 
-<!-- PORTFOLIO -->
-<section class="portfolio" id="portfolio">
-  <h2>Selected Work</h2>
+<!-- PROJECTS -->
+<section class="projects reveal" id="projects">
+  <h2>My Projects</h2>
 
   <div class="grid">
-    <div class="card">
-      <img src="assets/work1.jpg" alt="Smart Systems & Ops">
-      <h3>Smart Systems & Ops</h3>
-      <p>Conceptual system design and optimization.</p>
+    <div class="project">
+      <img src="assets/work1.jpg">
+      <h3>Smart Operations</h3>
+      <button>View</button>
     </div>
 
-    <div class="card">
-      <img src="assets/work2.jpg" alt="UI UX Interfaces">
-      <h3>UI/UX Interfaces</h3>
-      <p>Dashboards and digital experiences.</p>
+    <div class="project">
+      <img src="assets/work2.jpg">
+      <h3>UI / UX Systems</h3>
+      <button>View</button>
     </div>
 
-    <div class="card">
-      <img src="assets/work3.jpg" alt="Creative Direction">
+    <div class="project">
+      <img src="assets/work3.jpg">
       <h3>Creative Direction</h3>
-      <p>Branding and visual systems.</p>
+      <button>View</button>
     </div>
 
-    <div class="card">
-      <img src="assets/work4.jpg" alt="Human Centered Tech">
+    <div class="project">
+      <img src="assets/work4.jpg">
       <h3>Human-Centered Tech</h3>
-      <p>Technology with social and humanitarian impact.</p>
+      <button>View</button>
     </div>
   </div>
 </section>
 
-<!-- ABOUT -->
-<section class="about">
-  <h2>About</h2>
-  <p>
-    SmartOps Studio is a creative intelligence studio focused on building
-    smart systems that connect design, operations, and technology.
-  </p>
-  <p class="founder">
-    Founded by <strong>Mona Mohammed</strong> — Computer Engineer & Creative Technologist.
-  </p>
+<!-- FEATURES / PLANS -->
+<section class="features reveal">
+  <h2>Features & Plans</h2>
+  <div class="features-grid">
+    <div class="feature">⚙ Smart Systems</div>
+    <div class="feature">🎨 Creative Design</div>
+    <div class="feature">📊 Optimization</div>
+    <div class="feature">🤝 Client Focus</div>
+  </div>
+</section>
+
+<!-- CLIENTS -->
+<section class="clients reveal">
+  <h2>Clients & Collaborations</h2>
+  <div class="clients-row">
+    <span>NGO</span>
+    <span>Startup</span>
+    <span>Enterprise</span>
+    <span>Creative Teams</span>
+  </div>
 </section>
 
 <!-- CONTACT -->
-<section class="contact" id="contact">
+<section class="contact reveal" id="contact">
   <h2>Let’s Work Together</h2>
-  <a href="mailto:your@email.com" class="btn primary">Get in Touch</a>
+  <input type="email" placeholder="Your Email">
+  <button>Contact Me</button>
 </section>
 
+<!-- FOOTER -->
 <footer>
-  © 2026 SmartOps Studio. All rights reserved.
+  <div>
+    <strong>SmartOps Studio</strong><br>
+    Creative Intelligence
+  </div>
+  <div>
+    © 2026 — All Rights Reserved
+  </div>
 </footer>
 
+<script src="script.js"></script>
 </body>
 </html>
