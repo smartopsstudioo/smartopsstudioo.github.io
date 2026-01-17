@@ -1,0 +1,27 @@
+/* ===============================
+   SmartOps Studio – Creative Intelligence
+   =============================== */
+
+:root {
+  --dark: #0b1220;      /* Dark Navy */
+  --neon: #3cffc7;      /* Neon Mint */
+  --light: #e5e7eb;     /* Light Gray */
+  --muted: #9ca3af;     /* Muted Text */
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Inter", Arial, sans-serif;
+  background: var(--dark);
+  color: var(--light);
+  line-height: 1.7;
+}
+
+/* Sections */
+section {
+  padding: 90px 10%;
+}
